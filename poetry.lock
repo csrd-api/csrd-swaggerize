@@ -68,13 +68,13 @@ files = [
 
 [[package]]
 name = "csrd-models"
-version = "0.1.1"
-description = ""
+version = "0.1.3"
+description = "models lib"
 optional = false
 python-versions = "<4.0,>=3.12"
 files = [
-    {file = "csrd_models-0.1.1-py3-none-any.whl", hash = "sha256:3d8b5aaf15cc7c55d5778fcabca21fb12c8ee0d7bcbbb11a9fa88d9c7eb435a4"},
-    {file = "csrd_models-0.1.1.tar.gz", hash = "sha256:954c6248077f2b5eb42422138ec28e8cc3753ea36202e6fcae1ac482ab7bc883"},
+    {file = "csrd_models-0.1.3-py3-none-any.whl", hash = "sha256:da6e848adffa2a589ab32f52def1f97c48b4e9978bc4924128b5c9936bcff5b4"},
+    {file = "csrd_models-0.1.3.tar.gz", hash = "sha256:ccb7c9a4a865235bf67ceec4976e16400f66e479229b9b9dacee2ee23b0daa9d"},
 ]
 
 [package.dependencies]
@@ -83,13 +83,13 @@ pre-commit = ">=3.8.0,<4.0.0"
 
 [[package]]
 name = "csrd-utils"
-version = "0.1.1"
+version = "0.1.3"
 description = ""
 optional = false
 python-versions = "<4.0,>=3.12"
 files = [
-    {file = "csrd_utils-0.1.1-py3-none-any.whl", hash = "sha256:4a825d5906602682316a61c59096ed26272371b7257e930f0abbd6310dcc34a4"},
-    {file = "csrd_utils-0.1.1.tar.gz", hash = "sha256:d1c3ea3cf32aa9706441a6be6aacb0634fccdc3dae4e1ed069c43f8b9e55eb39"},
+    {file = "csrd_utils-0.1.3-py3-none-any.whl", hash = "sha256:04d70d49016ee8b6a6664cdfb9174bfe9d1e2b4ac2307fa40d64bc36d042be77"},
+    {file = "csrd_utils-0.1.3.tar.gz", hash = "sha256:3a6459383275fc9ae0a84cb544bffbdc2dc5fddf7cebd7f1cd68c208ac74f35b"},
 ]
 
 [package.dependencies]
