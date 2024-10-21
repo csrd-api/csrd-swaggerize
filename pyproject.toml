@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "csrd-swaggerize"
-version = "0.1.3"
+version = "0.1.10"
 description = ""
 authors = ["aaron <aaron@frostmn.com>"]
 readme = "README.md"
