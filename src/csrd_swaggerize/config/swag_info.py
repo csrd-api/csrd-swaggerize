@@ -7,9 +7,9 @@ from typing import Union, Dict
 
 class SwagInfo(_Config):
     def __init__(self, title = None, version = None, *, description=None, terms_of_service=None, termsOfService=None, contact: Union[SwagContact | Dict] = None, license: Union[SwagLicense | Dict | License] = None):
-        self._title = title or 'A Flask_CSRD API'
+        self._title = title or 'A CSRD API'
         self._version = version or '0.0.1'
-        self._description = description or 'powered by FLASK_CSRD'
+        self._description = description or 'powered by CSRD'
 
         self._tos = termsOfService or terms_of_service or '/tos'
         if type(contact) is dict:
